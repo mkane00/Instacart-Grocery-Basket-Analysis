@@ -31,19 +31,18 @@ This project analyzes grocery basket data to uncover customer purchasing pattern
 5. Customer segmentation and pattern analysis
 6. Visualization of key findings
 
-## 📊 Key Insights (Example)
+## 📊 Key Insights 
 
-* Customers show consistent reordering behavior for staple products
-* Certain departments drive repeat purchases more than others
-* Clear differences emerge between frequent and occasional shoppers
+* Customers place most orders during a consistent “peak window” (often mid-day/afternoon). This is useful for staffing, promos, and delivery capacity planning.
+* A large portion of items in baskets are reordered products.
+* A few departments (typically groceries like produce/dairy/beverages/snacks) account for most items ordered. This helps prioritize homepage placement, featured deals, inventory planning, and “top department” campaigns.
 
 ## 📈 Visualizations
 
-* Top reordered products
-* Basket size distribution
-* Orders by day of week and hour of day
+* Bar Chart - Loyalty Level
+* Heatmap - Customer profile by age group
+* Histogram - Orders per hour of day
 
-*(Visuals are saved in the `/visuals` folder.)*
 
 ## 📁 Repository Structure
 
@@ -58,8 +57,9 @@ instacart-grocery-basket-analysis/
 
 ## 🚀 Next Steps
 
-* Apply clustering techniques for deeper customer segmentation
-* Expand analysis to include product recommendation logic
+* Schedule promotions around peak ordering times
+* Target strategy by loyalty segment
+* Prioritize top departments for conversion
 
 ## 👩‍💻 Author
 
