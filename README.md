@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project analyzes grocery basket data to uncover customer purchasing patterns and segment customers based on buying behavior. The goal is to generate actionable insights that can support targeted marketing, product placement, and operational decision-making.
+This project analyzes grocery basket data to uncover customer purchasing patterns and segment customers based on buying behavior. The goal is to generate actionable insights that can support targeted marketing, product placement, and operational decision-making. As a marketing analyst at Instacart, I want to understand customer behavior by time, region, and segment so I can schedule campaigns and promotions more effectively and increase conversion while protecting margin.
 
 ## 🎯 Business Objectives
 
@@ -57,9 +57,16 @@ instacart-grocery-basket-analysis/
 
 ## 🚀 Next Steps
 
-* Schedule promotions around peak ordering times
-* Target strategy by loyalty segment
-* Prioritize top departments for conversion
+* Benchmarking: Compare patterns with industry grocery e-commerce
+* Validate segments by clustering and predict next month behavior
+* Approach your segmentation by RFM (Recency, Frequency, Monetary). VIP, Loyal, Promising, At Risk, Casual
+
+## Recommendations
+
+* Daypart ad scheduling + offer design. Peak hours: prioritize conversion campaigns and higher-margin categories.
+* Department bundles aligned to customer profiles. Create 3–5 bundles by department affinity and promote by segment.
+* Retention strategy using improved loyalty segmentation (RFM). Replace single-variable loyalty with RFM segments.
+  VIP/Loyal: early access to delivery slots + personalized recommendations
 
 ## 👩‍💻 Author
 
