@@ -1,74 +1,65 @@
 # Instacart Basket Analysis
 
 ## 📌 Project Overview
+Analyzed Instacart grocery basket data to uncover customer purchasing behavior, identify key demand patterns, and segment customers to support targeted marketing, product placement, and operational strategy.
 
-This project analyzes grocery basket data to uncover customer purchasing patterns and segment customers based on buying behavior. The goal is to generate actionable insights that can support targeted marketing, product placement, and operational decision-making. As a marketing analyst at Instacart, I want to understand customer behavior by time, region, and segment so I can schedule campaigns and promotions more effectively and increase conversion while protecting margin.
+## 🔧 Tools Used
+- Python (pandas, NumPy)
+- Data visualization (Matplotlib / Seaborn)
+- Jupyter Notebook
+- Data cleaning, feature engineering, segmentation
 
 ## 🎯 Business Objectives
-
-* Identify common purchasing patterns and frequently bought products
-* Segment customers based on shopping behavior and order characteristics
-* Support data-driven marketing and merchandising strategies
+- Identify common purchasing patterns and frequently bought products  
+- Segment customers based on shopping behavior and order characteristics  
+- Support data-driven marketing and merchandising strategies  
 
 ## 📂 Data Source
+- Instacart Grocery Basket dataset  
+- Includes orders, products, departments, aisles, and customers  
 
-* Instacart Grocery Basket dataset
-* Includes information on orders, products, departments, aisles, and customers
+## 🔎 Analytical Approach
+- Cleaned and merged multiple datasets using pandas  
+- Engineered features (order frequency, reorder rate, basket size)  
+- Performed exploratory data analysis on customer and transaction behavior  
+- Built grouped aggregations and behavioral segments  
+- Created visualizations to communicate trends and patterns  
 
-## 🛠️ Technical Highlights
-
-- Cleaned and merged multiple datasets using pandas
-- Performed exploratory analysis on customer and transaction behavior
-- Built grouped summaries and visualizations to identify patterns
-- Documented analysis workflow for reproducibility
-  
-## 🔍 Key Steps
-
-1. Data loading and initial inspection
-2. Data cleaning and handling missing values
-3. Feature engineering (order frequency, reorder behavior, basket size)
-4. Exploratory data analysis
-5. Customer segmentation and pattern analysis
-6. Visualization of key findings
-
-## 📊 Key Insights 
-
-* Customers place most orders during a consistent “peak window” (often mid-day/afternoon). This is useful for staffing, promos, and delivery capacity planning.
-* A large portion of items in baskets are reordered products.
-* A few departments (typically groceries like produce/dairy/beverages/snacks) account for most items ordered. This helps prioritize homepage placement, featured deals, inventory planning, and “top department” campaigns.
+## 📊 Key Insights
+- Peak ordering occurs during mid-day hours, representing the highest opportunity for targeted promotions and delivery optimization  
+- A majority of items in customer baskets are reordered products, indicating strong habitual purchasing behavior  
+- A small number of departments (produce, dairy, beverages, snacks) drive the majority of orders, highlighting opportunities for category prioritization and bundling strategies  
+- Customer behavior varies across segments, supporting the need for personalized marketing approaches  
 
 ## 📈 Visualizations
+- Bar Chart — Loyalty levels by customer segment  
+- Heatmap — Customer profiles by age group and behavior  
+- Histogram — Order distribution by hour of day  
 
-* Bar Chart - Loyalty Level
-* Heatmap - Customer profile by age group
-* Histogram - Orders per hour of day
+## 💡 Business Recommendations
+- Align promotions with peak ordering hours to maximize conversion  
+- Develop product bundles based on high-frequency departments  
+- Implement RFM segmentation (Recency, Frequency, Monetary) to improve targeting  
+- Personalize retention strategies (VIP, Loyal, At Risk customers)  
 
-
-## 📁 Repository Structure
-
-```
-instacart-grocery-basket-analysis/
-├── data/
-├── notebooks/
-│   └── instacart_analysis.ipynb
-├── visuals/
-├── README.md
-```
+## ⚠️ Limitations
+- Dataset does not include pricing or revenue data  
+- Limited demographic attributes available for deeper segmentation  
 
 ## 🚀 Next Steps
+- Apply clustering models to refine customer segments  
+- Predict future purchasing behavior using time-series or classification models  
+- Expand segmentation using additional behavioral features  
 
-* Benchmarking: Compare patterns with industry grocery e-commerce
-* Validate segments by clustering and predict next month behavior
-* Approach your segmentation by RFM (Recency, Frequency, Monetary). VIP, Loyal, Promising, At Risk, Casual
-
-## Recommendations
-
-* Daypart ad scheduling + offer design. Peak hours: prioritize conversion campaigns and higher-margin categories.
-* Department bundles aligned to customer profiles. Create 3–5 bundles by department affinity and promote by segment.
-* Retention strategy using improved loyalty segmentation (RFM). Replace single-variable loyalty with RFM segments.
-  VIP/Loyal: early access to delivery slots + personalized recommendations
+## 📁 Repository Structure
+instacart-grocery-basket-analysis/
+├── data/  
+├── notebooks/  
+│   └── instacart_analysis.ipynb  
+├── visuals/  
+├── README.md  
 
 ## 👩‍💻 Author
-
-**Mary Kane**
-Data Analyst | Bilingual (English–Spanish)
+Mary Kane  
+Data Analyst | Healthcare & Operations Background  
+Bilingual: English / Spanish
