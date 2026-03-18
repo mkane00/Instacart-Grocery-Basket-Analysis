@@ -15,13 +15,13 @@ This project analyzes grocery basket data to uncover customer purchasing pattern
 * Instacart Grocery Basket dataset
 * Includes information on orders, products, departments, aisles, and customers
 
-## 🛠️ Tools & Technologies
+## 🛠️ Technical Highlights
 
-* **Python** (Pandas, NumPy)
-* Jupyter Notebook
-* Data cleaning and exploratory data analysis (EDA)
-* Data visualization (Matplotlib / Seaborn)
-
+- Cleaned and merged multiple datasets using pandas
+- Performed exploratory analysis on customer and transaction behavior
+- Built grouped summaries and visualizations to identify patterns
+- Documented analysis workflow for reproducibility
+  
 ## 🔍 Key Steps
 
 1. Data loading and initial inspection
