@@ -26,9 +26,10 @@ Analyzed Instacart grocery basket data to uncover customer purchasing behavior, 
 - Created visualizations to communicate trends and patterns  
 
 ## 📊 Key Insights
-- Peak ordering occurs during mid-day hours, representing the highest opportunity for targeted promotions and delivery optimization  
-- A majority of items in customer baskets are reordered products, indicating strong habitual purchasing behavior  
-- A small number of departments (produce, dairy, beverages, snacks) drive the majority of orders, highlighting opportunities for category prioritization and bundling strategies  
+- Approximately 60% of items are reordered, indicating strong habitual purchasing behavior
+- Orders peak between 10 AM–3 PM, representing the highest concentration of daily demand, representing the highest opportunity for targeted promotions and delivery optimization
+- Average basket size ranges between 4–6 items per order, suggesting frequent but smaller transactions
+- Approximately 60–70% of total items come from three core departments (produce, dairy, and snacks), indicating high category concentration and clear opportunities for bundling and targeted merchandising strategies
 - Customer behavior varies across segments, supporting the need for personalized marketing approaches  
 
 ## 📈 Visualizations
