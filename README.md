@@ -1,4 +1,4 @@
-# Instacart Grocery Basket Analysis
+# Instacart Basket Analysis
 
 ## 📌 Project Overview
 
